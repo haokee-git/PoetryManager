@@ -14,25 +14,25 @@
 #define Q     113
 
 void setPos(int y, int x) {
-	COORD coord;
-	coord.X = x - 1;
-	coord.Y = y - 1;
-	HANDLE a = GetStdHandle(STD_OUTPUT_HANDLE);
-	SetConsoleCursorPosition(a, coord);
+  COORD coord;
+  coord.X = x - 1;
+  coord.Y = y - 1;
+  HANDLE a = GetStdHandle(STD_OUTPUT_HANDLE);
+  SetConsoleCursorPosition(a, coord);
 }
 
 void hideCursor() {
-	HANDLE hand = GetStdHandle(STD_OUTPUT_HANDLE);
-	CONSOLE_CURSOR_INFO info;
-	GetConsoleCursorInfo(hand, &info);
-	info.bVisible = false;
-	SetConsoleCursorInfo(hand, &info);
+  HANDLE hand = GetStdHandle(STD_OUTPUT_HANDLE);
+  CONSOLE_CURSOR_INFO info;
+  GetConsoleCursorInfo(hand, &info);
+  info.bVisible = false;
+  SetConsoleCursorInfo(hand, &info);
 }
 
 void showCursor() {
-	HANDLE hand = GetStdHandle(STD_OUTPUT_HANDLE);
-	CONSOLE_CURSOR_INFO info;
-	GetConsoleCursorInfo(hand, &info);
-	info.bVisible = true;
-	SetConsoleCursorInfo(hand, &info);
+  HANDLE hand = GetStdHandle(STD_OUTPUT_HANDLE);
+  CONSOLE_CURSOR_INFO info;
+  GetConsoleCursorInfo(hand, &info);
+  info.bVisible = true;
+  SetConsoleCursorInfo(hand, &info);
 }
