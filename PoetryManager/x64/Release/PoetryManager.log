@@ -1,6 +1,11 @@
-﻿  正在生成代码
-  0 of 472 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+﻿  PoetryManager.cpp
+E:\Code\Visual C++\PoetryManager\PoetryManager\PoetryManager.cpp(44,30): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\Code\Visual C++\PoetryManager\PoetryManager\PoetryManager.cpp(49,30): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\Code\Visual C++\PoetryManager\PoetryManager\PoetryManager.cpp(56,17): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\Code\Visual C++\PoetryManager\PoetryManager\PoetryManager.cpp(151,14): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码
+  2 of 474 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+    1 functions had inline decision re-evaluated but remain unchanged
   已完成代码的生成
   PoetryManager.vcxproj -> E:\Code\Visual C++\PoetryManager\x64\Release\PoetryManager.exe
